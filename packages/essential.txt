@@ -4,6 +4,7 @@ audacity
 audacity-ffmpeg
 bulk-crap-uninstaller
 camstudio
+choco-cleaner
 curl
 dos2unix
 ffmpeg
