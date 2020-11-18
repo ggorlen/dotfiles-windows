@@ -26,6 +26,7 @@ nuget.commandline
 passwordsafe
 php
 postman
+processing
 pswindowsupdate
 python.pypy
 qemu

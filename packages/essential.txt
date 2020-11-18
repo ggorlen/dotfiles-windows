@@ -22,6 +22,7 @@ jq
 lame
 libreoffice-fresh
 make
+microsoft-windows-terminal
 mingw
 mpg123
 mpv
@@ -42,7 +43,9 @@ soulseek
 sqlite
 strawberryperl
 ublockorigin-chrome
+unzip
 vagrant
+vcxsrv
 vim
 virtualbox
 vlc
@@ -51,6 +54,7 @@ winamp
 winrar
 wsl
 wsl2
+wsl-ubuntu-2004
 xsltproc
 youtube-dl
 zip

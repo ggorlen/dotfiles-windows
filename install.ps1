@@ -4,21 +4,12 @@ if ((Get-Command cinst).Path -eq $null) {
     iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
-foreach ($package in get-content "packages\essential.txt") {
-    cinst $package -y
-}
+cinst (get-content "packages\essential.txt") -y
+refreshenv
 
-foreach ($package in get-content "packages\node.txt") {
-    node i -g $package
-}
-
-foreach ($package in get-content "packages\python.txt") {
-    python3 -m pip install $package
-}
-
-foreach ($package in get-content "packages\perl.txt") {
-    cpanm $package
-}
+cpan (get-content "packages\perl.txt")
+npm i -g (get-content "packages\node.txt")
+python -m pip install (get-content "packages\python.txt")
 
 $profile = "$env:USERPROFILE\Documents\WindowsPowerShell"
 
