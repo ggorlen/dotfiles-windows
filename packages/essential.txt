@@ -15,6 +15,7 @@ gawk
 gimp
 git
 googlechrome
+grep
 gsudo
 heroku-cli
 irfanview
