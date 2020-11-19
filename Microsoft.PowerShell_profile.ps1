@@ -1,3 +1,10 @@
+if (Test-Path alias:curl) { 
+    remove-item alias:curl
+}
+
+Set-Alias vi vim
+Set-Alias ll ls
+
 # Navigation
 function .. { cd .. }
 function ... { Set-Location ..\.. }
@@ -12,7 +19,7 @@ function dl { Set-Location ~\Downloads }
 Set-Alias -Name cd -Value pushd -Option AllScope
 Set-Alias -Name bd -Value popd -Option AllScope
 
-# TODO
-function t {
-    wsl.exe -d Ubuntu-20.04 ~/bin/t
+function wsl2 {
+    wsl.exe -d Ubuntu-20.04
 }
+
