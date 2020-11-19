@@ -2,7 +2,12 @@ if (Test-Path alias:curl) {
     remove-item alias:curl
 }
 
+if (Test-Path alias:wget) { 
+    remove-item alias:wget
+}
+
 Set-Alias vi vim
+Set-Alias l ls
 Set-Alias ll ls
 
 # Navigation
