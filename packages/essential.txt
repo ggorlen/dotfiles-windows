@@ -1,5 +1,4 @@
 7zip
-adobereader
 audacity
 audacity-ffmpeg
 bulk-crap-uninstaller
@@ -43,10 +42,10 @@ selenium-chrome-driver
 soulseek
 sqlite
 strawberryperl
+sumatrapdf.install
 ublockorigin-chrome
 unzip
 vagrant
-vcxsrv
 vim
 virtualbox
 vlc

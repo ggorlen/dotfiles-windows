@@ -1,3 +1,4 @@
+adobereader
 android-sdk
 androidstudio
 autohotkey.portable
@@ -38,8 +39,8 @@ sharpkeys
 slack
 smartftp
 sql-server-express
-sumatrapdf.install
 supercollider
+vcxsrv
 vscode.install
 wamp-server
 winflexbison3
