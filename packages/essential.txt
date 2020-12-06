@@ -43,6 +43,7 @@ soulseek
 sqlite
 strawberryperl
 sumatrapdf.install
+tree
 ublockorigin-chrome
 unzip
 vagrant
