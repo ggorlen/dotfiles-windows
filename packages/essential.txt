@@ -50,6 +50,7 @@ vagrant
 vim
 virtualbox
 vlc
+webcamoid
 wget
 winamp
 winrar
