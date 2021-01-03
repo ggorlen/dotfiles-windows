@@ -36,6 +36,7 @@ postgresql
 puredata
 putty.install
 python3
+python.pypy
 ruby
 sed
 selenium-chrome-driver

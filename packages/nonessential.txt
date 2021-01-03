@@ -36,6 +36,7 @@ qutebrowser
 r.project
 rust
 sharpkeys
+shotcut
 slack
 smartftp
 sql-server-express
