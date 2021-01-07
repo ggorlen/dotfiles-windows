@@ -6,6 +6,7 @@ bitnami-xampp
 brave
 ccleaner
 composer
+cs-script
 djvu-libre
 docker
 dotnetcore-sdk
