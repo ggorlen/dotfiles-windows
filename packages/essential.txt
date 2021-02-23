@@ -23,6 +23,7 @@ lame
 libreoffice-fresh
 make
 microsoft-windows-terminal
+miktex
 mingw
 mpg123
 mpv

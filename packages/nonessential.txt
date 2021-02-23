@@ -15,6 +15,7 @@ eac
 eraser
 ghc
 golang
+graphicsmagick
 graphviz
 jdk11
 jre8
