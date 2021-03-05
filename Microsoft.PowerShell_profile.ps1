@@ -36,6 +36,19 @@ function weather() {
     curl "wttr.in/sfo?n2"
 }
 
+function hibernate-later() {
+    # hibernate after n minutes
+    param([Int32]$minutes)
+    
+    if ($minutes -le 0) {
+        echo "flag -minutes must be provided and > 0"
+    }
+    else {
+        Start-Sleep -Seconds ($minutes * 60)
+        shutdown /h
+    }
+}
+
 # FIXME
 function bc-play-collection($url) {
     curl -sS "https://bandcamp.com/ggorlen" `
