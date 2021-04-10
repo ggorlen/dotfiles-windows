@@ -7,8 +7,8 @@ if (Test-Path alias:wget) {
 }
 
 Set-Alias vi vim
-Set-Alias l ls
-Set-Alias ll ls
+function l { ls -Fo }
+function ll { ls -Fo }
 
 # Navigation
 function .. { cd .. }
@@ -47,23 +47,5 @@ function hibernate-later() {
         Start-Sleep -Seconds ($minutes * 60)
         shutdown /h
     }
-}
-
-# FIXME
-function bc-play-collection($url) {
-    curl -sS "https://bandcamp.com/ggorlen" `
-    | xmllint --html --xpath "//*[@id='pagedata']/@data-blob" 2> $null  - `
-    | sed 's/^ data-blob=\"\|\"$//g' `
-    | perl -MHTML::Entities -pe 'decode_entities($_);' `
-    | jq '{fan_id: .fan_data.fan_id, older_than_token: .wishlist_data.last_token, count: 10}' `
-    | curl -sS -X POST -H "Content-Type: Application/JSON" `
-      --data-binary "@-" https://bandcamp.com/api/fancollection/1/collection_items `
-    | jq -r .items[].item_url `
-    | xargs curl -sS `
-    | xmllint --html --xpath "//script[@data-tralbum]/@data-tralbum" 2> $null - `
-    | sed 's/^ data-tralbum=\"\|\"$//g' `
-    | perl -MHTML::Entities -pe 'decode_entities($_);' `
-    | jq -r '.trackinfo[].file."mp3-128"' `
-    | mpv -no-video --playlist=-
 }
 
