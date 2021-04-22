@@ -7,8 +7,8 @@ if (Test-Path alias:wget) {
 }
 
 Set-Alias vi vim
-function l { ls -Fo }
-function ll { ls -Fo }
+function l { ls -Fo $args }
+function ll { ls -Fo $args }
 
 # Navigation
 function .. { cd .. }
