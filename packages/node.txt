@@ -1,2 +1,10 @@
+create-react-app
+expo-cli
+heroku
+jest
 nodemon
 npkill
+npm-check-updates
+preact-cli
+react-devtools
+typescript

@@ -25,6 +25,7 @@ miktex
 mongodb
 mysql
 nasm
+neovim
 nuget.commandline
 passwordsafe
 php
