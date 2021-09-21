@@ -21,6 +21,7 @@ irfanview
 jq
 lame
 libreoffice-fresh
+licecap
 make
 microsoft-windows-terminal
 miktex
