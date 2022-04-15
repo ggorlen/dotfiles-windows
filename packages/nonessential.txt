@@ -12,6 +12,7 @@ docker
 dotnetcore-sdk
 dotnetfx
 eac
+emscripten
 eraser
 ghc
 golang
@@ -36,6 +37,7 @@ python.pypy
 qemu
 qmmp
 qutebrowser
+racket
 r.project
 rust
 sharpkeys
