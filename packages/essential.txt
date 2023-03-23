@@ -28,7 +28,6 @@ miktex
 mingw
 mpg123
 mpv
-nodejs.install
 notepadplusplus
 nvm
 openssh

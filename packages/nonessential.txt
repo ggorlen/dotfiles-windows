@@ -28,6 +28,7 @@ mongodb
 mysql
 nasm
 neovim
+nodejs.install
 nuget.commandline
 passwordsafe
 php
