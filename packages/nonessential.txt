@@ -30,6 +30,7 @@ nasm
 neovim
 nodejs.install
 nuget.commandline
+nvm
 passwordsafe
 php
 postman
