@@ -15,6 +15,7 @@ dotnetfx
 eac
 emscripten
 eraser
+fnm
 ghc
 golang
 graphicsmagick
@@ -30,7 +31,6 @@ nasm
 neovim
 nodejs.install
 nuget.commandline
-nvm
 passwordsafe
 php
 postman

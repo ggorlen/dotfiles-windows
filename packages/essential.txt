@@ -10,7 +10,6 @@ ffmpeg
 findutils
 firefox
 flac
-fnm
 gawk
 gimp
 git
@@ -30,6 +29,7 @@ mingw
 mpg123
 mpv
 notepadplusplus
+nvm
 pandoc
 pdftk
 postgresql
